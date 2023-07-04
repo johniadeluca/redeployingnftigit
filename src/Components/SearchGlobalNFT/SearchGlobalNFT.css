@@ -1,0 +1,223 @@
+.global-search-container {
+    gap: 3rem;
+}
+
+.bg-image>img {
+    image-resolution: 600dpi;
+}
+
+.global-search-second-sub {
+    gap: 10px;
+}
+
+.global-search-second-sub>h1 {
+    color: #ffffff;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+}
+
+.global-search-second-sub>p {
+    color: #777E91;
+    width: 30%;
+    text-align: center;
+}
+
+.global-search-second-sub-input {
+    width: 25%;
+}
+
+.global-search-second-sub-input>select {
+    background: none;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border: 2px solid #353945;
+    border-radius: 90px;
+}
+
+.global-search-second-sub-input option {
+    background: #212529;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.global-search-second-sub-input option:hover {
+    color: white;
+}
+
+.global-search-second-sub-input>input {
+    all: unset;
+    border: 2px solid #353945;
+    border-radius: 90px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.global-search-second-sub-input>img {
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+.global-search-third-sub {
+    gap: 2rem;
+}
+
+.global-search-third-sub>div {
+    overflow: auto;
+}
+
+.global-search-third-sub>h5 {
+    color: #ffffff;
+}
+
+.global-search-card-container {
+    gap: 20px;
+}
+
+.global-search-card {
+    gap: 10px;
+    border: 1px solid #353945;
+    border-radius: 76px;
+    /* padding-right: 110px; */
+    width: 256px;
+    min-width: 256px;
+}
+
+.global-search-card-img {
+    width: 30%;
+}
+
+.global-search-card-img>img {
+    border-radius: 50%;
+    max-height: 44px;
+    max-width: 44px;
+    width: 100%;
+}
+
+.global-search-card-details>h5 {
+    color: #ffffff;
+}
+
+.global-search-card-details>p {
+    color: #777E91;
+}
+
+.global-search-card-container {
+    overflow-x: scroll;
+}
+
+#globalNFTModal .modal-dialog, #mintNFTModal .modal-dialog {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 90vh !important;
+}
+
+#globalNFTModal .close, #mintNFTModal .close {
+    color: #ffffff;
+    text-shadow: none;
+    font-weight: normal;
+}
+
+#globalNFTModal .modal-content {
+    background: #212529;
+    color: #ffffff;
+    min-width: 70vw;
+}
+
+#mintNFTModal .modal-content {
+    background: #212529;
+    color: #ffffff;
+}
+
+#globalNFTModal .modal-header, #globalNFTModal .modal-footer, #mintNFTModal .modal-header, #mintNFTModal .modal-footer {
+    border-bottom: none;
+    border-top: none;
+}
+
+.global-search-fetched-nft-details {
+    color: #ffffff;
+    word-break: break-all;
+    padding: 0 10px !important;
+}
+
+.global-search-fetched-nft-details>span {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.global-search-fetched-nft-details>a {
+    all: unset;
+    cursor: pointer;
+}
+
+.global-search-fetched-nft-details>a:hover {
+    color: skyblue;
+    text-decoration: underline;
+}
+
+.global-search-fetched-nft-details>button {
+    all: unset;
+    background-color: rgb(62, 62, 224);
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.global-search-fetched-nft-details>button:hover {
+    background-color: rgb(44, 44, 225);
+}
+
+.global-search-nft-modal-container>div>img {
+    border-radius: 8px;
+    max-height: 28rem;
+    max-width: 100%;
+    min-width: 30%
+}
+
+@media screen and (max-width: 900px) {
+    .bg-image>img {
+        image-resolution: 600dpi;
+        width: 100%;
+    }
+
+    .global-search-second-sub>h1 {
+        width: 80%;
+    }
+
+    .global-search-second-sub>p {
+        width: 70%;
+    }
+
+    .global-search-second-sub-input {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .global-search-second-sub>h1 {
+        font-size: 2rem;
+    }
+
+    .global-search-second-sub>p {
+        font-size: 0.8rem;
+    }
+
+    .global-search-second-sub-input {
+        width: 80%;
+    }
+
+    .global-search-card {
+        width: 90%;
+    }
+
+    .global-search-nft-modal-container {
+        flex-direction: column !important;
+    }
+
+    .global-search-nft-modal-container>div {
+        width: 100% !important;
+    }
+}
